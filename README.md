@@ -1,10 +1,15 @@
 # Developer Salary Prediction Project
 
 ## Motivation
-The goal of this porject is to analyze what factors influence developer salaries. Using data from the StackOverflow Developer Survey, I explore how experience, education and work experience affect salary outcomes. Additionally, I train a machine learning model to predict salaries based on these features.
+The goal of this porject is to analyze what factors influence developer salaries. 
+
+Using data from the StackOverflow Developer Survey, I explore how experience, education and work experience affect salary outcomes. Additionally, I train a machine learning model to predict salaries based on these features.
+
+
 
 ## Data source
 The dataset comes from the StackOverflow Developer Survey 2025
+It is too large to be included in this repository. It can be downloaded here:
 https://survey.stackoverflow.co/
 
 The dataset contains information about developers, including salary, education level and experience.
@@ -31,8 +36,6 @@ The project focuses on the following questions:
 - `blog.md` -> Blog post summarizing the finidings
 - `salary_plot.png` - Visualization used in the blog
 
-The dataset (`results.csv`) from StackOverflow survey is too large to be included in this repository.
-It can be downloaded from https://survey.stackoverflow.co/
 
 ## Summary of results
 The analysis showed that experience has some influence on salary, but the relationship is not very strong. The scatterplot revealed a high variation in salary across all experience levels, indicating that other fators play in important role.
